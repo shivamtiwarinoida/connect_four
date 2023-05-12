@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid{
+    border:1px solid black;
+    height: 122px;
+    width: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.player-one{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.info{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.game{
+    background-color:rgb(2, 135, 252);
+    color:white;
+    padding: 1rem;
+    margin: 5rem auto;
+    border:0.2rem solid black;
+    box-shadow: 0.6rem 0.6rem 0.6rem rgb(251, 1, 251);
+    border-radius: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-width: 180px;
+    margin-bottom: 50vh;
+}
+
+.game h3{
+    margin: 0.5rem;
+}
+
+.msg{
+    background-color: aliceblue;
+    color: navy;
+    border: 0.1rem solid navy;
+    border-radius: 0.6rem;
+    position: absolute;
+    top:-50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.2rem 2.3rem;
+    transform: translate(-50%,-50%);
+    box-shadow: 0.6rem 0.6rem 0.6rem rgb(251, 1, 251);
+    font-size: 1.3rem;
+    transition: top 2s;
+}
+
+.showme{
+    top:50%;
+}
+
+.msg h3{
+    margin: 0.5rem;
+}
+
+.msg .btn{
+    background-color: red;
+    font-size:1.2rem ;
+    color:white;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 0.1rem solid whitesmoke;
+    border-radius: 0.6rem;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:0.6rem;
+    font-size: 1.3rem;
+}
+
+.navbar span{
+    color: red;
+}
+
+.navbar:hover{
+    background-color: navy;
+    text-decoration: underline;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    padding:0.6rem;
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+}
+
+
+.foot:hover{
+    background-color: navy;
+    text-decoration: underline;
+}
